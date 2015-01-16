@@ -179,9 +179,9 @@ ul.pagination li {
 
 /* Start to customize Reverie */
 a, a:visited, a:hover, a:visited:hover {
+  -webkit-transition: all 100ms linear;
   -moz-transition: all 100ms linear;
   -o-transition: all 100ms linear;
-  -webkit-transition: all 100ms linear;
   transition: all 100ms linear;
 }
 
@@ -190,8 +190,10 @@ figure {
 }
 
 figure img {
-  -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
   border-radius: 5px;
 }
 
@@ -365,8 +367,10 @@ time a:focus {
 }
 
 .page-numbers li span.current {
-  -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
   border-radius: 3px;
 }
 
@@ -387,8 +391,10 @@ time a:focus {
 }
 
 .avatar {
-  -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
   border-radius: 50%;
   float: left;
 }
@@ -524,4 +530,31 @@ footer.full-width .love-reverie {
     margin-top: 3rem;
     padding-top: 2rem;
   }
+}
+.full-background {
+  color: #fff;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-image: url("../img/home_slider_1.jpg");
+}
+.full-background h1, .full-background h2 {
+  color: #fff;
+}
+
+nav {
+  background: #0f2d53;
+  color: white;
+  text-transform: uppercase;
+}
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav img {
+  height: 50px;
 }

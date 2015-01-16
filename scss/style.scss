@@ -351,3 +351,13 @@ footer.full-width {
 		padding-top: rem-calc(32);
 	}
 }
+
+
+
+// Zultheme's starting stylesheets
+$white: #fff;
+$darkblue: #0f2d53;
+$lightblue: #355EA0;
+
+@import "full-background";
+@import "top-bar";
