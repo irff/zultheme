@@ -102,6 +102,19 @@ foreach ($sidebars as $sidebar) {
     ));
 }
 
+$sidebars = array('Twitter');
+foreach ($sidebars as $sidebar) {
+    register_sidebar(array('name'=> $sidebar,
+        'id' => 'Twitter',
+        'before_widget' => '<div class="large-3 columns"><article id="%1$s" class="panel widget %2$s">',
+        'after_widget' => '</article></div>',
+        'before_title' => '<h4>',
+        'after_title' => '</h4>'
+
+    ));
+}
+
+
 // return entry meta information for posts, used by multiple loops, you can override this function by defining them first in your child theme's functions.php file
 if ( ! function_exists( 'reverie_entry_meta' ) ) {
     function reverie_entry_meta() {

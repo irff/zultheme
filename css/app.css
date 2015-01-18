@@ -2854,6 +2854,7 @@ select::-ms-expand {
     background: #f3f3f3;
   }
 }
+
 /* Attach elements to the beginning or end of an input */
 .prefix,
 .postfix {
@@ -3473,6 +3474,7 @@ kbd {
     transform: rotate(360deg);
   }
 }
+
 /* Orbit Graceful Loading */
 .slideshow-wrapper {
   position: relative;
@@ -3636,7 +3638,7 @@ kbd {
   left: 10px;
   font-size: 12px;
   color: white;
-  background: transparent;
+  background: rgba(0, 0, 0, 0);
   z-index: 10;
 }
 .orbit-container .orbit-slide-number span {
@@ -4182,6 +4184,13 @@ dialog[open] {
   dialog.collapse, .reveal-modal.collapse {
     padding: 0;
   }
+  dialog.full, .reveal-modal.full {
+    top: 0;
+    left: 0;
+    height: 100vh;
+    min-height: 100vh;
+    margin-left: 0 !important;
+  }
 }
 @media only screen and (min-width: 40.063em) and (min-width: 40.063em) {
   dialog.tiny, .reveal-modal.tiny {
@@ -4214,15 +4223,6 @@ dialog[open] {
   }
 }
 
-@media only screen and (min-width: 40.063em) {
-  dialog.full, .reveal-modal.full {
-    top: 0;
-    left: 0;
-    height: 100vh;
-    min-height: 100vh;
-    margin-left: 0 !important;
-  }
-}
 @media only screen and (min-width: 40.063em) and (min-width: 40.063em) {
   dialog.full, .reveal-modal.full {
     margin-left: -50vw;
@@ -4530,12 +4530,12 @@ div.switch span:last-child {
 div.switch span:last-child {
   border-color: #b3b3b3;
   background: white;
-  background: linear-gradient(to bottom, white 0%, #f2f2f2 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
   box-shadow: 2px 0 10px 0 rgba(0, 0, 0, 0.07), 1000px 0 0 980px #f3faf6, -2px 0 10px 0 rgba(0, 0, 0, 0.07), -1000px 0 0 1000px whitesmoke;
 }
 div.switch:hover span:last-child, div.switch:focus span:last-child {
   background: white;
-  background: linear-gradient(to bottom, white 0%, #e6e6e6 100%);
+  background: linear-gradient(to bottom, #ffffff 0%, #e6e6e6 100%);
 }
 div.switch:active {
   background: transparent;
@@ -5193,7 +5193,8 @@ blockquote p {
 
   @page {
     margin: 0.5cm;
-  }
+}
+
   p,
   h2,
   h3 {
@@ -6203,7 +6204,7 @@ ul.off-canvas-list li a:hover {
   left: 0;
   right: 0;
   z-index: 1002;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 @media only screen and (min-width: 40.063em) {
   .move-right .exit-off-canvas:hover {
@@ -6232,7 +6233,7 @@ ul.off-canvas-list li a:hover {
   left: 0;
   right: 0;
   z-index: 1002;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 @media only screen and (min-width: 40.063em) {
   .move-left .exit-off-canvas:hover {
@@ -6261,7 +6262,7 @@ ul.off-canvas-list li a:hover {
   left: 0;
   right: 0;
   z-index: 1002;
-  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   z-index: 1002;
 }
 @media only screen and (min-width: 40.063em) {

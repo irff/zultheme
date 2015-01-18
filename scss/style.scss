@@ -358,6 +358,13 @@ footer.full-width {
 $white: #fff;
 $darkblue: #0f2d53;
 $lightblue: #355EA0;
+$textgray: #888;
 
 @import "full-background";
 @import "top-bar";
+@import "header";
+@import "berita";
+@import "galeri";
+@import "home-video";
+@import "twitter";
+@import "footer";

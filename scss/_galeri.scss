@@ -1,0 +1,40 @@
+nav.galeri {
+	color: $textgray;
+	text-transform: uppercase;
+	display: block;
+	padding: 60px 0 40px;
+	ul {
+		text-align: center;
+		list-style-type: none;
+		li {
+			font-size: 20px;
+			margin: 0 30px;
+			display: inline;
+		}
+	}
+}
+
+.galeri.thumbs {
+	text-align: center;
+	figure {
+		margin: 0;
+		img {
+			-webkit-wmoz-border-radius: 0;
+			-moz-wmoz-border-radius: 0;
+			-ms-wmoz-border-radius: 0;
+			-o-wmoz-border-radius: 0;
+			border-radius: 0;
+		}
+	}
+	.columns {
+		padding: 0;
+	}
+
+	.lainnya {
+		padding: 60px 0;
+		.button {
+			margin: 0;
+		}
+	}
+
+}

@@ -1,0 +1,25 @@
+.header {
+	height: 400px;
+	.row, .columns {
+		height: 100%;
+		position: relative;
+	}
+	.title {
+		position: absolute;
+		bottom: 60px;
+		right: 0;
+	}
+
+	h1 {
+		text-transform: uppercase;
+		color: $white;
+	}
+
+	&.berita {
+		background-image: url("../img/header_berita.jpg");
+	}
+
+	&.galeri {
+		background-image: url("../img/header_galeri.jpg");	
+	}
+}
