@@ -19,3 +19,73 @@
 		font-size: 36px;
 	}
 }
+
+.full-background.daftar-relawan {
+	height: -webkit-calc(100vh-70px);
+	height: -moz-calc(100vh-70px);
+	height: -ms-calc(100vh-70px);
+	height: -o-calc(100vh-70px);
+	height: calc(100vh-70px);
+	color: #fff;
+	position: relative;
+
+	fieldset {
+		border: none !important;
+		margin: 0;
+		padding: 0;
+	}
+
+	h1 {
+		margin-top: 25%;
+	}
+
+	h2 {
+		margin: 15px 0 15px;
+		font-size: 30px;
+	}
+
+	h3 {
+		display: none;
+	}
+	
+	.hidden {
+		display: none !important;
+	}
+
+	ul {
+		margin: 0;
+		list-style-type: none;
+		li {
+			input[type='text'] {
+				width: 80%;
+				border: none;
+				-webkit-wmoz-border-radius: 5px;
+				-moz-wmoz-border-radius: 5px;
+				-ms-wmoz-border-radius: 5px;
+				-o-wmoz-border-radius: 5px;
+				border-radius: 5px;
+				&:hover {
+					box-shadow: none !important;
+				}
+				
+				&:focus,
+				&:active {
+					transition: none;
+					border: none;
+					box-shadow: none !important;
+				}
+			}
+
+			label {
+				color: #fff;
+			}
+		}
+	}
+}
+
+.topbar.daftar-relawan {
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}

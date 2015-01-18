@@ -550,6 +550,65 @@ footer.full-width .love-reverie {
   font-size: 36px;
 }
 
+.full-background.daftar-relawan {
+  height: -webkit-calc(100vh-70px);
+  height: -moz-calc(100vh-70px);
+  height: -ms-calc(100vh-70px);
+  height: -o-calc(100vh-70px);
+  height: calc(100vh-70px);
+  color: #fff;
+  position: relative;
+}
+.full-background.daftar-relawan fieldset {
+  border: none !important;
+  margin: 0;
+  padding: 0;
+}
+.full-background.daftar-relawan h1 {
+  margin-top: 25%;
+}
+.full-background.daftar-relawan h2 {
+  margin: 15px 0 15px;
+  font-size: 30px;
+}
+.full-background.daftar-relawan h3 {
+  display: none;
+}
+.full-background.daftar-relawan .hidden {
+  display: none !important;
+}
+.full-background.daftar-relawan ul {
+  margin: 0;
+  list-style-type: none;
+}
+.full-background.daftar-relawan ul li input[type='text'] {
+  width: 80%;
+  border: none;
+  -webkit-wmoz-border-radius: 5px;
+  -moz-wmoz-border-radius: 5px;
+  -ms-wmoz-border-radius: 5px;
+  -o-wmoz-border-radius: 5px;
+  border-radius: 5px;
+}
+.full-background.daftar-relawan ul li input[type='text']:hover {
+  box-shadow: none !important;
+}
+.full-background.daftar-relawan ul li input[type='text']:focus, .full-background.daftar-relawan ul li input[type='text']:active {
+  transition: none;
+  border: none;
+  box-shadow: none !important;
+}
+.full-background.daftar-relawan ul li label {
+  color: #fff;
+}
+
+.topbar.daftar-relawan {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+}
+
 nav.topbar {
   height: 70px;
   background: #0f2d53;
@@ -597,6 +656,9 @@ nav.topbar img {
 }
 .header.galeri {
   background-image: url("../img/header_galeri.jpg");
+}
+.header.undang {
+  background-image: url("../img/header_kalender.jpg");
 }
 
 nav.berita {
@@ -679,6 +741,14 @@ nav.galeri ul li {
 }
 .galeri.thumbs .lainnya .button {
   margin: 0;
+}
+
+.kalender {
+  text-align: center;
+  padding: 60px 0;
+}
+.kalender h2 {
+  margin: 0 0 55px;
 }
 
 .home-video {

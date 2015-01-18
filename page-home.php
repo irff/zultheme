@@ -47,7 +47,7 @@ Template Name: Home
 			<li>Galeri</li>			
 		</ul>
 	</div>
-	<div class="large-2 columns"><?php get_header(); ?>
+	<div class="large-2 columns">
 
 			<img src="<?php echo get_template_directory_uri(); ?>/img/zul_logo.png" alt=""></li>
 	</div>

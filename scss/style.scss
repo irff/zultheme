@@ -6,6 +6,12 @@
 // import normalize, stay at top
 // @import "normalize";
 
+$white: #fff;
+$darkblue: #0f2d53;
+$lightblue: #355EA0;
+$textgray: #888;
+
+
 // Global Foundation Settings
 @import "settings";
 
@@ -355,16 +361,12 @@ footer.full-width {
 
 
 // Zultheme's starting stylesheets
-$white: #fff;
-$darkblue: #0f2d53;
-$lightblue: #355EA0;
-$textgray: #888;
-
 @import "full-background";
 @import "top-bar";
 @import "header";
 @import "berita";
 @import "galeri";
+@import "kalender";
 @import "home-video";
 @import "twitter";
 @import "footer";
