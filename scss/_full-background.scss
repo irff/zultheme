@@ -36,10 +36,12 @@
 	}
 
 	h1 {
-		margin-top: 25%;
+		font-size: 20px;
+		margin-top: 10%;
 	}
 
 	h2 {
+		font-size: 28px;
 		margin: 15px 0 15px;
 		font-size: 30px;
 	}
@@ -85,7 +87,7 @@
 
 .topbar.daftar-relawan {
 	width: 100%;
-	position: fixed;
+	position: absolute;
 	left: 0;
 	bottom: 0;
 }
