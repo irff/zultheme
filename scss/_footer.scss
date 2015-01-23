@@ -22,4 +22,19 @@
 			font-size: 0.9rem;
 		}
 	}
+
+	.social {
+		ul {
+			margin-top: 25px;
+			list-style-type: none;
+			li {
+				float: left;
+				margin-right: 18px;
+			}
+		}
+		img {
+			width: 40px;
+			height: 40px;
+		}
+	}
 }

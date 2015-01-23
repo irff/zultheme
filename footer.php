@@ -29,8 +29,15 @@
 				<h4>Tweet Zul</h4>
 				<blockquote><?php echo $tweet; ?></blockquote>
 			</div>
-			<div class="large-4 medium-4 columns">
-				<h2><strong>kebangsaan.org</strong></h2>
+			<div class="large-4 medium-4 columns social">
+				<h4>Media Sosial</h4>
+				<ul>
+					<li><a href="https://www.facebook.com/pages/Zulkifli-Hasan/1547369918837496"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/facebook-icon.svg" alt=""></a></li>
+					<li><a href="https://twitter.com/ZUL_Hasan"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/twitter-icon.svg" alt=""></a></li>
+					<li><a href="https://plus.google.com/108550131107533916311/"><img src="<?php echo get_template_directory_uri(); ?>/img/icons/google-icon.svg" alt=""></a></li>
+					<li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/icons/linkedin-icon.svg" alt=""></a></li>
+					<li><a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/icons/instagram-icon.svg" alt=""></a></li>
+				</ul>
 			</div>
 		</div>
 	</div>

@@ -856,3 +856,15 @@ nav.galeri ul li {
   color: #bbb;
   font-size: 0.9rem;
 }
+.footer .social ul {
+  margin-top: 25px;
+  list-style-type: none;
+}
+.footer .social ul li {
+  float: left;
+  margin-right: 18px;
+}
+.footer .social img {
+  width: 40px;
+  height: 40px;
+}
