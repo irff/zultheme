@@ -723,6 +723,10 @@ article {
   max-width: 900px;
   padding: 75px 15px 60px;
 }
+article h2 {
+  text-align: center;
+  margin: 0 0 60px;
+}
 
 nav.berita {
   color: #888888;

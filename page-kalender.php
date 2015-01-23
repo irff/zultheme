@@ -16,25 +16,7 @@ Template Name: Kalender
 	</div>
 </div>
 
-<nav class="topbar">
-	<div class="large-5 columns">
-		<ul class="left-nav">
-			<li>Profil</li>
-			<li>Berita</li>
-			<li>Galeri</li>			
-		</ul>
-	</div>
-	<div class="large-2 columns">
-		<img src="<?php echo get_template_directory_uri(); ?>/img/zul_logo.png" alt=""></li>
-	</div>
-	<div class="large-5 columns">
-		<ul class="right-nav">
-			<li>Kalender Kegiatan</li>
-			<li>Dukung Zul</li>
-			<li>Kontak</li>
-		</ul>		
-	</div>
-</nav>
+<?php include('navigation.php'); ?>
 
 <div class="kalender">
 	<div class="row">

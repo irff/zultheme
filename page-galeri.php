@@ -17,27 +17,9 @@ Template Name: Galeri
 	</div>
 </div>
 
-<nav class="topbar">
-	<div class="large-5 columns">
-		<ul class="left-nav">
-			<li>Profil</li>
-			<li>Berita</li>
-			<li>Galeri</li>			
-		</ul>
-	</div>
-	<div class="large-2 columns">
+<?php include('navigation.php'); ?>
 
-			<img src="<?php echo get_template_directory_uri(); ?>/img/zul_logo.png" alt=""></li>
-	</div>
-	<div class="large-5 columns">
-		<ul class="right-nav">
-			<li>Kalender Kegiatan</li>
-			<li>Dukung Zul</li>
-			<li>Kontak</li>
-		</ul>		
-	</div>
-</nav>
-
+<!-- 
 <nav class="galeri">
 	<div class="row">
 		<div class="large-12 columns">
@@ -50,6 +32,7 @@ Template Name: Galeri
 		</div>
 	</div>	
 </nav>
+ -->
 
 <div class="galeri thumbs">
 	<div class="row">

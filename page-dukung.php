@@ -11,7 +11,7 @@ Template Name: Dukung
 	<div class="row">
 		<div class="large-12 columns">
 			<div class="title">		
-				<h1>Error 404</h1>
+				<h1>Dukung Zulkifli Hasan</h1>
 			</div>			
 		</div>
 	</div>
@@ -23,8 +23,10 @@ Template Name: Dukung
 	<div class="row">
 		<div class="large-12 medium-12">
 			<article>
-				<h2>Halaman yang anda cari tidak ditemukan.</h2>
+				<h2>Dukung Zulkifli Hasan</h2>
 			</article>
 		</div>
 	</div>
 </div>
+
+<?php get_footer(); ?>
