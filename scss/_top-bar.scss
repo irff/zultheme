@@ -1,11 +1,14 @@
 nav.topbar {
 	height: 70px;
+	margin: 0 0 -15px;
 	background: $darkblue;
 	color: $white;
 	text-transform: uppercase;
 	padding: 5px;
 	text-align: center;
-
+	a {
+		color: $white;
+	}
 	ul {
 		padding: 17px;
 		list-style-type: none;

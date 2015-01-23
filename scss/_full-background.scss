@@ -135,4 +135,26 @@ nav.daftar-relawan {
 		height: 44px;
 	}
 
+	a {
+		color: $white;
+	}
+	
+	ul {
+		padding: 17px 0 0;
+		list-style-type: none;
+		&.left-nav {
+			li {
+				margin: 0 22px;			
+			}
+		}
+		&.right-nav {
+			li {
+				margin: 0 15px;			
+			}
+		}
+		li {
+			display: inline-block;
+		}
+	}
+
 }

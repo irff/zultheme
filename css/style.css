@@ -645,14 +645,34 @@ nav.daftar-relawan img {
   margin: 8px 0;
   height: 44px;
 }
+nav.daftar-relawan a {
+  color: white;
+}
+nav.daftar-relawan ul {
+  padding: 17px 0 0;
+  list-style-type: none;
+}
+nav.daftar-relawan ul.left-nav li {
+  margin: 0 22px;
+}
+nav.daftar-relawan ul.right-nav li {
+  margin: 0 15px;
+}
+nav.daftar-relawan ul li {
+  display: inline-block;
+}
 
 nav.topbar {
   height: 70px;
+  margin: 0 0 -15px;
   background: #0f2d53;
   color: white;
   text-transform: uppercase;
   padding: 5px;
   text-align: center;
+}
+nav.topbar a {
+  color: white;
 }
 nav.topbar ul {
   padding: 17px;
@@ -696,6 +716,12 @@ nav.topbar img {
 }
 .header.undang {
   background-image: url("../img/header_kalender.jpg");
+}
+
+article {
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 75px 15px 60px;
 }
 
 nav.berita {
