@@ -48,7 +48,7 @@
           'twitter_screen_name'   => '',
           'cache_file'            => dirname(__FILE__) . '/cache/twitter.txt', // Where on the server to save the cached formatted tweets
           'cache_file_raw'        => dirname(__FILE__) . '/cache/twitter-array.txt', // Where on the server to save the cached raw tweets
-          'cachetime'             => 60 * 60, // Seconds to cache feed (1 hour).
+          'cachetime'             => 60, // Seconds to cache feed (1 hour).
           'tweets_to_display'     => 1, // How many tweets to fetch
           'ignore_replies'        => true, // Ignore @replies
           'ignore_retweets'       => true, // Ignore retweets
