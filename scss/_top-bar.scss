@@ -32,3 +32,97 @@ nav.topbar {
 		height: 44px;
 	}
 }
+
+
+nav.daftar-relawan {
+	position: relative;
+	bottom: 0;
+	display: block;
+	width: 100%;
+	height: 70px;
+	background: $darkblue;
+	color: $white;
+	text-transform: uppercase;
+	padding: 5px;
+	text-align: center;
+
+	img {
+		margin: 8px 0;
+		height: 44px;
+	}
+
+	a {
+		color: $white;
+	}
+	
+	ul {
+		padding: 17px 0 0;
+		list-style-type: none;
+		&.left-nav {
+			li {
+				margin: 0 16px;			
+			}
+		}
+		&.right-nav {
+			li {
+				margin: 0 16px;			
+			}
+		}
+		li {
+			display: inline-block;
+		}
+	}
+
+}
+
+@media only screen and (min-width: 43.063em) and (max-width: 64em) {
+	nav.topbar {
+		.columns {
+			padding: 0;
+		}
+		ul {
+			margin: 0;
+			&.left-nav {
+				li {
+					margin: 0 8px;
+				}
+			}
+			&.right-nav {
+				li {
+					margin: 0 8px;
+				}
+			}
+		}
+	}
+}
+
+
+nav.topbar, nav.daftar-relawan {
+	@media only screen and (max-width: 43em) {
+		display: none;
+	}
+}
+
+nav.top-bar,
+.top-bar.expanded .title-area,
+ul.dropdown {
+	background: $darkblue;
+	color: $white;
+	a {
+		color: $white;
+	}
+}
+ul.dropdown {
+	background: lighten($darkblue, 10%);
+	padding: 10px;
+	margin: 0;
+	li {
+		margin: 10px 0;
+	}
+}
+
+.topbar-mobile {
+	@media only screen and (min-width: 43em) {
+		display: none;
+	}	
+}

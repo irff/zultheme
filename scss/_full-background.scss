@@ -34,7 +34,15 @@ body {
 	min-height: -ms-calc(100% - 70px);
 	min-height: -o-calc(100% - 70px);
 	min-height: calc(100% - 70px);
-	
+
+	@media only screen and (max-width: 40em) {
+		min-height: -webkit-calc(100%);
+		min-height: -moz-calc(100%);
+		min-height: -ms-calc(100%);
+		min-height: -o-calc(100%);
+		min-height: calc(100%);
+	}
+
 	background: linear-gradient(
       rgba(0, 0, 0, 0.3), 
       rgba(0, 0, 0, 0.3)
@@ -116,45 +124,4 @@ body {
 			}
 		}
 	}
-}
-
-nav.daftar-relawan {
-	position: relative;
-	bottom: 0;
-	display: block;
-	width: 100%;
-	height: 70px;
-	background: $darkblue;
-	color: $white;
-	text-transform: uppercase;
-	padding: 5px;
-	text-align: center;
-
-	img {
-		margin: 8px 0;
-		height: 44px;
-	}
-
-	a {
-		color: $white;
-	}
-	
-	ul {
-		padding: 17px 0 0;
-		list-style-type: none;
-		&.left-nav {
-			li {
-				margin: 0 22px;			
-			}
-		}
-		&.right-nav {
-			li {
-				margin: 0 15px;			
-			}
-		}
-		li {
-			display: inline-block;
-		}
-	}
-
 }
