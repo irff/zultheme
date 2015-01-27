@@ -44,3 +44,8 @@ Template Name: Daftar Relawan
 </nav>
 
 <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/latest.css">
+
+<?php include('analyticstracking.php'); ?>
+
+</body>
+</html>
