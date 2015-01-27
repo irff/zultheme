@@ -94,6 +94,5 @@ Template Name: Daftar Relawan
 		console.log('texs');
 	</script>
 
-	<?php include('analyticstracking.php'); ?>
 </body>
 </html>
