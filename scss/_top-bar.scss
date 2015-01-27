@@ -35,7 +35,8 @@ nav.topbar {
 
 
 nav.daftar-relawan {
-	position: relative;
+	z-index: 50;
+	position: absolute;
 	bottom: 0;
 	display: block;
 	width: 100%;
@@ -75,6 +76,8 @@ nav.daftar-relawan {
 
 }
 
+
+
 @media only screen and (min-width: 43.063em) and (max-width: 64em) {
 	nav.topbar {
 		.columns {
@@ -112,6 +115,7 @@ ul.dropdown {
 		color: $white;
 	}
 }
+
 ul.dropdown {
 	background: lighten($darkblue, 10%);
 	padding: 10px;
@@ -125,4 +129,14 @@ ul.dropdown {
 	@media only screen and (min-width: 43em) {
 		display: none;
 	}	
+}
+
+.topbar-mobile.relawan {
+	position: relative;
+	nav.top-bar.expanded {
+		position: absolute;
+		bottom: 0;
+		z-index: 150;
+		width: 100%;
+	}
 }

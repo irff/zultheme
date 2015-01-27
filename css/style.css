@@ -537,7 +537,6 @@ footer.full-width .love-reverie {
   height: 100vh;
   width: 100vw;
   background-size: cover;
-  background-image: url("../img/home_slider_1.jpg");
   background-position: right center;
 }
 .full-background h1, .full-background h2 {
@@ -564,7 +563,6 @@ body {
   min-height: -ms-calc(100% - 70px);
   min-height: -o-calc(100% - 70px);
   min-height: calc(100% - 70px);
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/home_slider_1.jpg");
   background-size: cover;
   background-position: right center;
   color: #fff;
@@ -578,6 +576,9 @@ body {
     min-height: -o-calc(100%);
     min-height: calc(100%);
   }
+}
+.daftar-relawan-full .row {
+  height: 0;
 }
 .daftar-relawan-full fieldset {
   border: none !important;
@@ -638,6 +639,18 @@ body {
   color: #fff;
 }
 
+.daftar-headline {
+  position: absolute;
+  top: 5%;
+  z-index: 100;
+}
+
+.full-screen-image {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+}
+
 nav.topbar {
   height: 70px;
   margin: 0 0 -15px;
@@ -669,7 +682,8 @@ nav.topbar img {
 }
 
 nav.daftar-relawan {
-  position: relative;
+  z-index: 50;
+  position: absolute;
   bottom: 0;
   display: block;
   width: 100%;
@@ -746,6 +760,16 @@ ul.dropdown li {
   .topbar-mobile {
     display: none;
   }
+}
+
+.topbar-mobile.relawan {
+  position: relative;
+}
+.topbar-mobile.relawan nav.top-bar.expanded {
+  position: absolute;
+  bottom: 0;
+  z-index: 150;
+  width: 100%;
 }
 
 .header {

@@ -49,6 +49,7 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/foundation.min.js"></script>
 	<script src="<?php echo get_template_directory_uri(); ?>/js/foundation.equalizer.js"></script>
 
+
 	<script>
 		jQuery(document).foundation();
 		console.log('texs');
