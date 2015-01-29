@@ -27,6 +27,13 @@ Template Name: Kontak
 				<p>Twitter: <a href="https://twitter.com/ZUL_Hasan">@ZUL_Hasan</a></p>
 				<p>Facebook: <a href="https://www.facebook.com/pages/Zulkifli-Hasan/1547369918837496">Zulkifli Hasan</a></p>
 				<p>Email: <a href="mailto:info@zulhasan.com">info@zulhasan.com</a></p>
+				<br>
+				<p>Atau silakan suarakan melalui form di bawah ini:</p>
+
+				<?php /* Start loop */ ?>
+				<?php while (have_posts()) : the_post(); ?>
+					<?php the_content(); ?>
+				<?php endwhile; // End the loop ?>
 			</article>
 		</div>
 	</div>
