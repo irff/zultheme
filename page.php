@@ -1,25 +1,38 @@
+<?php
+/*
+Template Name: Page Standard
+*/
+?>
+
 <?php get_header(); ?>
 
-<!-- Row for main content area -->
-	<div class="small-12 large-8 columns" id="content" role="main">
-	
-	<?php /* Start loop */ ?>
-	<?php while (have_posts()) : the_post(); ?>
-		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
-			<header>
-				<h1 class="entry-title"><?php the_title(); ?></h1>
-				<?php reverie_entry_meta(); ?>
-			</header>
-			<div class="entry-content">
-				<?php the_content(); ?>
-			</div>
-			<footer>
-				<?php wp_link_pages(array('before' => '<nav id="page-nav"><p>' . __('Pages:', 'reverie'), 'after' => '</p></nav>' )); ?>
-			</footer>
-		</article>
-	<?php endwhile; // End the loop ?>
 
+<div class="header berita">
+	<div class="row">
+		<div class="large-12 columns">
+			<div class="title">		
+				<h1>Kontak</h1>
+			</div>			
+		</div>
 	</div>
-	<?php get_sidebar(); ?>
-		
+</div>
+
+<?php include('navigation.php'); ?>
+
+<div class="profil">
+	<div class="row">
+		<div class="large-12 medium-12" id="content" role="main">
+			<article>
+				<?php /* Start loop */ ?>
+				<?php while (have_posts()) : the_post(); ?>
+				<header>
+					<h2><?php the_title(); ?></h2>
+				</header>
+				<?php the_content(); ?>
+				<?php endwhile; // End the loop ?>
+			</article>
+		</div>
+	</div>
+</div>
+
 <?php get_footer(); ?>
