@@ -21,7 +21,7 @@ Template Name: Page Standard
 
 <div class="profil">
 	<div class="row">
-		<div class="large-12 medium-12" id="content" role="main">
+		<div class="large-12 medium-12" role="main">
 			<article>
 				<?php /* Start loop */ ?>
 				<?php while (have_posts()) : the_post(); ?>

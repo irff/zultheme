@@ -531,6 +531,14 @@ footer.full-width .love-reverie {
     padding-top: 2rem;
   }
 }
+blockquote {
+  margin: 0 0 45px;
+  font-style: italic;
+}
+blockquote p {
+  font-size: 1.375em;
+}
+
 .full-background {
   color: #fff;
   margin: 0;
