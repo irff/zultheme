@@ -938,6 +938,13 @@ nav.galeri ul li {
   list-style-position: outside;
   list-style-type: none;
 }
+.footer ul li a {
+  color: white;
+  border-bottom: 1px solid white;
+}
+.footer ul li a:hover {
+  border: none;
+}
 .footer h4, .footer h2, .footer h6 {
   color: white;
 }

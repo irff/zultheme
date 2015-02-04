@@ -21,8 +21,7 @@
 			<div class="large-4 medium-4 columns">
 				<h4>Isu Kita</h4>
 				<ul>
-					<li>Penyelesaian Reformasi</li>
-					<li>SARA dan HAM</li>
+					<li><a href="<?php echo esc_url(home_url('/pluralitas')); ?>">Pluralitas</a></li>
 				</ul>
 			</div>
 			<div class="large-4 medium-4 columns">

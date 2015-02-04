@@ -8,7 +8,14 @@
 		list-style-position: outside;
 		list-style-type: none;
 		li {
+			a {
+				color: $white;
+				border-bottom: 1px solid $white;
+			}
 
+			a:hover {
+				border: none;
+			}
 		}
 	}
 
