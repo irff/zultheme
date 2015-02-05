@@ -754,7 +754,7 @@ ul.dropdown a {
 
 ul.dropdown {
   background: #17447e;
-  padding: 10px;
+  padding: 10px 15px;
   margin: 0;
 }
 ul.dropdown li {
@@ -790,6 +790,7 @@ ul.dropdown li {
   right: 0;
 }
 .header h1 {
+  text-align: right;
   text-transform: uppercase;
   color: white;
 }
@@ -803,6 +804,11 @@ ul.dropdown li {
   background-image: url("../img/header_kalender.jpg");
 }
 
+@media only screen and (max-width: 64em) {
+  .header h1 {
+    margin: 0 30px;
+  }
+}
 article {
   margin: 0 auto;
   max-width: 900px;

@@ -11,6 +11,7 @@
 	}
 
 	h1 {
+		text-align: right;
 		text-transform: uppercase;
 		color: $white;
 	}
@@ -25,5 +26,13 @@
 
 	&.undang {
 		background-image: url("../img/header_kalender.jpg");
+	}
+}
+
+@media only screen and (max-width: $medium-width) {
+	.header {
+		h1 {
+			margin: 0 30px;
+		}
 	}
 }
