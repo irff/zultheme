@@ -10,12 +10,18 @@
 		li {
 			a {
 				color: $white;
-				border-bottom: 1px solid $white;
 			}
 
 			a:hover {
 				border: none;
 			}
+
+		}
+	}
+
+	.issues {
+		a {
+			border-bottom: 1px solid $white;
 		}
 	}
 

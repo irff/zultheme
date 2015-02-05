@@ -18,7 +18,7 @@
 
 	<div class="footer">
 		<div class="row">
-			<div class="large-4 medium-4 columns">
+			<div class="large-4 medium-4 columns issues">
 				<h4>Isu Kita</h4>
 				<ul>
 					<li><a href="<?php echo esc_url(home_url('/pluralitas')); ?>">Pluralitas</a></li>

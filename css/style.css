@@ -940,10 +940,12 @@ nav.galeri ul li {
 }
 .footer ul li a {
   color: white;
-  border-bottom: 1px solid white;
 }
 .footer ul li a:hover {
   border: none;
+}
+.footer .issues a {
+  border-bottom: 1px solid white;
 }
 .footer h4, .footer h2, .footer h6 {
   color: white;
