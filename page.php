@@ -23,7 +23,7 @@ Template Name: Page Standard
 
 	<div class="profil">
 		<div class="row">
-			<div class="large-12 medium-12" role="main">
+			<div class="large-12 medium-12 content" role="main">
 				<article>
 					<header>
 						<h2><?php the_title(); ?></h2>

@@ -531,11 +531,11 @@ footer.full-width .love-reverie {
     padding-top: 2rem;
   }
 }
-blockquote {
+.content blockquote {
   margin: 0 0 45px;
   font-style: italic;
 }
-blockquote p {
+.content blockquote p {
   font-size: 1.375em;
 }
 
@@ -935,9 +935,12 @@ nav.galeri ul li {
 }
 
 .footer {
-  padding: 60px 0 30px;
+  padding: 45px 0 30px;
   background: #0f2d53;
   color: white;
+}
+.footer .columns {
+  padding-top: 15px;
 }
 .footer ul {
   margin: 0;
@@ -961,12 +964,11 @@ nav.galeri ul li {
   font-size: 0.9rem;
 }
 .footer .social ul {
-  margin-top: 25px;
   list-style-type: none;
 }
 .footer .social ul li {
+  margin: 20px 20px 0 0;
   float: left;
-  margin-right: 18px;
 }
 .footer .social img {
   width: 40px;

@@ -1,8 +1,10 @@
 .footer	{
-	padding: 60px 0 30px;
+	padding: 45px 0 30px;
 	background: $darkblue;
 	color: $white;
-	
+	.columns {
+		padding-top: 15px;
+	}
 	ul {
 		margin: 0;
 		list-style-position: outside;
@@ -38,11 +40,10 @@
 
 	.social {
 		ul {
-			margin-top: 25px;
 			list-style-type: none;
 			li {
+				margin: 20px 20px 0 0;
 				float: left;
-				margin-right: 18px;
 			}
 		}
 		img {
