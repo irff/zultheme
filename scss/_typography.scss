@@ -1,9 +1,18 @@
 .content {
 	blockquote {
+		padding: 0 10px;
 		margin: 0 0 45px;
 		font-style: italic;
 		p {
-			font-size: 1.375em;	
+			font-size: 1.375em;
+		}
+	}
+
+	@media screen and (max-width: $small-width) {
+		blockquote {
+			p {
+				font-size: 1.2em;
+			}
 		}
 	}
 }

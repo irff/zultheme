@@ -532,11 +532,17 @@ footer.full-width .love-reverie {
   }
 }
 .content blockquote {
+  padding: 0 10px;
   margin: 0 0 45px;
   font-style: italic;
 }
 .content blockquote p {
   font-size: 1.375em;
+}
+@media screen and (max-width: 43em) {
+  .content blockquote p {
+    font-size: 1.2em;
+  }
 }
 
 .full-background {
@@ -819,6 +825,14 @@ article h2 {
   margin: 0 0 60px;
 }
 
+@media screen and (max-width: 43em) {
+  article {
+    padding: 40px 15px;
+  }
+  article h2 {
+    margin: 0 0 40px;
+  }
+}
 nav.berita {
   color: #888888;
   text-transform: uppercase;
@@ -899,14 +913,6 @@ nav.galeri ul li {
 }
 .galeri.thumbs .lainnya .button {
   margin: 0;
-}
-
-.kalender {
-  text-align: center;
-  padding: 60px 0;
-}
-.kalender h2 {
-  margin: 0 0 55px;
 }
 
 .hidden {
