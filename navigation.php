@@ -1,9 +1,9 @@
 <nav class="topbar">
 	<div class="large-5 medium-5 columns">
 		<ul class="left-nav">
-			<li><a href="<?php echo esc_url(home_url('/profil')); ?>">Profil</a></li>
+			<li><a href="<?php echo esc_url(home_url('/kenal-zul')); ?>">Kenal Zul</a></li>
 			<li><a href="<?php echo esc_url(home_url('/berita')); ?>">Berita</a></li>
-			<li><a href="<?php echo esc_url(home_url('/galeri')); ?>">Galeri</a></li>			
+			<li><a href="<?php echo esc_url(home_url('/isu')); ?>">Isu</a></li>			
 		</ul>
 	</div>
 	<div class="large-2 medium-2 columns">
@@ -11,9 +11,9 @@
 	</div>
 	<div class="large-5 medium-5 columns">
 		<ul class="right-nav">
-			<li><a href="<?php echo esc_url(home_url('/kalender')); ?>">Kalender</a></li>
+			<li><a href="<?php echo esc_url(home_url('/media-kit')); ?>">Media Kit</a></li>
 			<li><a href="<?php echo esc_url(home_url('/dukung')); ?>">Dukung</a></li>
-			<li><a href="<?php echo esc_url(home_url('/kontak')); ?>">Kontak</a></li>
+			<li><a href="<?php echo esc_url(home_url('/sapa-zul')); ?>">Sapa Zul</a></li>
 		</ul>		
 	</div>
 </nav>
@@ -24,12 +24,12 @@
 			<li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
 		</ul>
 		<ul class="dropdown">
-			<li><a href="<?php echo esc_url(home_url('/profil')); ?>">Profil</a></li>
+			<li><a href="<?php echo esc_url(home_url('/kenal-zul')); ?>">Kenal Zul</a></li>
 			<li><a href="<?php echo esc_url(home_url('/berita')); ?>">Berita</a></li>
-			<li><a href="<?php echo esc_url(home_url('/galeri')); ?>">Galeri</a></li>			
-			<li><a href="<?php echo esc_url(home_url('/kalender')); ?>">Kalender</a></li>
+			<li><a href="<?php echo esc_url(home_url('/isu')); ?>">Isu</a></li>			
+			<li><a href="<?php echo esc_url(home_url('/media-kit')); ?>">Media Kit</a></li>
 			<li><a href="<?php echo esc_url(home_url('/dukung')); ?>">Dukung</a></li>
-			<li><a href="<?php echo esc_url(home_url('/kontak')); ?>">Kontak</a></li>
+			<li><a href="<?php echo esc_url(home_url('/sapa-zul')); ?>">Sapa Zul</a></li>
 		</ul>
   </nav>
 </div>
