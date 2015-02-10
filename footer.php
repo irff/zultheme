@@ -21,7 +21,7 @@
 			<div class="large-4 medium-4 columns issues">
 				<h4>Isu Kita</h4>
 				<ul>
-					<li><a href="<?php echo esc_url(home_url('/pluralitas')); ?>">Pluralitas</a></li>
+					<li><a href="<?php echo esc_url(home_url('/isu')); ?>">Pluralitas</a></li>
 				</ul>
 			</div>
 			<div class="large-4 medium-4 columns">
