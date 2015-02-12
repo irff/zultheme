@@ -930,10 +930,6 @@ nav.galeri ul li {
   margin: 0;
 }
 
-.hidden {
-  display: none !important;
-}
-
 .home-video {
   height: 70vh;
   width: 100vw;
