@@ -43,7 +43,6 @@ nav.daftar-relawan {
 	text-transform: uppercase;
 	padding: 5px;
 	text-align: center;
-
 	img {
 		margin: 8px 0;
 		height: 44px;
@@ -74,6 +73,13 @@ nav.daftar-relawan {
 }
 
 
+@media only screen and (min-width: 64.063em) {
+	nav.daftar-relawan {
+		position: absolute;
+		bottom: 0;
+		z-index: 101;
+	}
+}
 
 @media only screen and (min-width: 43.063em) and (max-width: 64em) {
 	nav.topbar {

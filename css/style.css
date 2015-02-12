@@ -726,6 +726,13 @@ nav.daftar-relawan ul li {
   display: inline-block;
 }
 
+@media only screen and (min-width: 64.063em) {
+  nav.daftar-relawan {
+    position: absolute;
+    bottom: 0;
+    z-index: 101;
+  }
+}
 @media only screen and (min-width: 43.063em) and (max-width: 64em) {
   nav.topbar .columns {
     padding: 0;
