@@ -8,6 +8,7 @@ anything else you may want to use plugins to keep things tidy.
 
 */
 
+
 /*
 1. lib/clean.php
   - head cleanup
@@ -51,6 +52,8 @@ if( ! function_exists( 'reverie_theme_support' ) ) {
         add_image_size('fd-lrg', 1024, 99999);
         add_image_size('fd-med', 768, 99999);
         add_image_size('fd-sm', 320, 9999);
+
+        set_post_thumbnail_size( 640, 640, true );
 
         // rss thingy
         add_theme_support('automatic-feed-links');
@@ -122,4 +125,6 @@ if ( ! function_exists( 'reverie_entry_meta' ) ) {
         echo '<time class="updated" datetime="'. get_the_time('c') .'" pubdate>'. get_the_time('F jS, Y') .'</time>';
     }
 };
+
+
 ?>

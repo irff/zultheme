@@ -30,10 +30,11 @@ Template Name: Berita
 				<div class="row" data-equalizer>
 			<?php endif; ?>
 			
-			<div class="large-4 columns">
+			<div class="large-4 medium-4 columns">
 				<div class="entry" data-equalizer-watch>
 					<figure>
-						<img src="<?php echo get_template_directory_uri(); ?>/img/berita/1.jpg" alt="">
+					<?php $featured_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'thumbnail' )[0]; ?>
+						<a href="<?php the_permalink(); ?>"><img src="<?php echo $featured_image; ?>" alt=""></a>
 						<figcaption>
 							<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 						</figcaption>
@@ -49,24 +50,28 @@ Template Name: Berita
 		wp_reset_postdata(); ?>
 
 		<?php if($counter % 3 == 1): ?>
-				<div class="large-4 columns">
+				<div class="large-4 medium-4 columns">
 					&nbsp;
 				</div>
-				<div class="large-4 columns">
+				<div class="large-4 medium-4 columns">
 					&nbsp;
 				</div>
 			</div>
 		<?php endif; ?>
 
 		<?php if($counter % 3 == 2): ?>
-				<div class="large-4 columns">
+				<div class="large-4 medium-4 columns">
 					&nbsp;
 				</div>
 			</div>
 		<?php endif; ?>
+	
+	<!-- 
 	<div class="selengkapnya">
 		<a href="" class="button">Selengkapnya</a>	
 	</div>
+ 	-->
 </div>
 
 <?php get_footer(); ?>
+

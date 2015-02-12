@@ -7,6 +7,25 @@ article {
 		text-align: center;
 		margin: 0 0 60px;
 	}
+
+	img {
+		&.featured {
+			width: 100%;
+			margin: 15px 0;
+		}
+	}
+}
+
+.berita {
+	article {
+		header {
+			text-align: center;
+			h2 {
+				margin: 0 0 15px;
+			}
+			margin: 0 0 15px;
+		}
+	}
 }
 
 @media screen and (max-width: $small-width) {
