@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Daftar Relawan
+Template Name: Front Page
 */
 ?>
 
@@ -10,14 +10,8 @@ Template Name: Daftar Relawan
 	<div id="slides">
 		<div class="row">
 			<div class="large-6 medium-6 small-12 columns daftar-headline">
-				<h1><em>Lupakan perbedaan, satukan tujuan. Saatnya kita mulai politik kebangsaan.</em></h1>
-				<h2><strong><em>Daftar menjadi Relawan Zulkifli Hasan</em></strong></h2>
-				<?php /* Start loop */ ?>
-				<?php while (have_posts()) : the_post(); ?>
-					<div class="daftar-relawan">
-						<?php the_content(); ?>
-					</div>
-				<?php endwhile; // End the loop ?>
+				<h2><em>Saatnya kita mulai politik kebangsaan. <br> Lupakan perbedaan, satukan tujuan.</em></h2>
+				<h2><strong><em>Mari bergabung!</em></strong></h2>
 			</div>		
 			<div class="large-6 medium-6 small-12 columns">
 				&nbsp;
