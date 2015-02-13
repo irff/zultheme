@@ -28,6 +28,10 @@ article {
 	}
 }
 
+.hidden {
+	display: none !important;
+}
+
 @media screen and (max-width: $small-width) {
 	article {
 		padding: 40px 15px;

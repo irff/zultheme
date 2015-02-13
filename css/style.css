@@ -844,6 +844,10 @@ article img.featured {
   margin: 0 0 15px;
 }
 
+.hidden {
+  display: none !important;
+}
+
 @media screen and (max-width: 43em) {
   article {
     padding: 40px 15px;
