@@ -873,6 +873,12 @@ nav.berita ul li {
   padding: 80px 0;
   text-align: center;
 }
+.berita.thumbs.home {
+  padding: 60px 0;
+}
+.berita.thumbs.home header {
+  margin-bottom: 15px;
+}
 .berita.thumbs .columns {
   padding: 10px;
 }

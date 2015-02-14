@@ -67,8 +67,40 @@ Template Name: Front Page
   </nav>
 </div>
 
+<div class="berita thumbs home">
+		<div class="row" data-equalizer>
+			<div class="large-12 columns">
+				<header>
+					<h2>Berita Terbaru</h2>
+				</header>
+			</div>
+			<?php
+			$args = Array('posts_per_page' => 3,
+						  'orderby' => 'post_date',
+						  'order' => 'DESC');
+			$lastposts = get_posts($args);
+			foreach ( $lastposts as $post ) : setup_postdata( $post ); ?>
+				<div class="large-4 medium-4 columns">
+					<div class="entry" data-equalizer-watch>
+						<figure>
+						<?php $featured_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'thumbnail' )[0]; ?>
+							<a href="<?php the_permalink(); ?>"><img src="<?php echo $featured_image; ?>" alt=""></a>
+							<figcaption>
+								<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+							</figcaption>
+						</figure>				
+					</div>
+				</div>
+			<?php
+			endforeach; 
+			wp_reset_postdata(); ?>	
+		</div>
+	<div class="selengkapnya">
+		<a href="<?php echo esc_url(home_url('/berita')); ?>" class="button">Selengkapnya</a>	
+	</div>
+</div>
+
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/superslides.css">
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/latest.css">
 
 	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.superslides.min.js"></script>
 
@@ -80,13 +112,4 @@ Template Name: Front Page
 	   	});
 	</script>
 
-	<script src="<?php echo get_template_directory_uri(); ?>/js/foundation.min.js"></script>
-	<script src="<?php echo get_template_directory_uri(); ?>/js/foundation.equalizer.js"></script>
-	
-	<script>
-		jQuery(document).foundation();
-		console.log('texs');
-	</script>
-
-</body>
-</html>
+<?php get_footer(); ?>

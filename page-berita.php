@@ -10,7 +10,7 @@ Template Name: Berita
 <div class="header berita">
 	<div class="row">
 		<div class="large-12 columns">
-			<div class="title">		
+			<div class="title">	
 				<h1>Berita Terbaru</h1>
 			</div>			
 		</div>
