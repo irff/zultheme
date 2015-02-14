@@ -125,7 +125,5 @@ if ( ! function_exists( 'reverie_entry_meta' ) ) {
         echo '<time class="updated" datetime="'. get_the_time('c') .'" pubdate>'. get_the_time('F jS, Y') .'</time>';
     }
 };
-// Remove wordpress auto tag generation
-remove_filter ('the_content', 'wpautop'); 
 
 ?>
