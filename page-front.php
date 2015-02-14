@@ -77,7 +77,8 @@ Template Name: Front Page
 			<?php
 			$args = Array('posts_per_page' => 3,
 						  'orderby' => 'post_date',
-						  'order' => 'DESC');
+						  'order' => 'DESC',
+						  'category_name' => 'berita');
 			$lastposts = get_posts($args);
 			foreach ( $lastposts as $post ) : setup_postdata( $post ); ?>
 				<div class="large-4 medium-4 columns">
@@ -100,16 +101,62 @@ Template Name: Front Page
 	</div>
 </div>
 
-	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/superslides.css">
+<div class="testimonial">
+	<div class="row">
+		<div class="large-12 columns">
+			<header>
+				<h2>Testimonial Zul</h2>
+			</header>
+			<div class="testimonial-slider">
+				<?php
+				$args = Array('posts_per_page' => 9,
+							  'orderby' => 'post_date',
+							  'order' => 'DESC',
+							  'category_name' => 'testimonial');
+				$lastposts = get_posts($args);
+				foreach ( $lastposts as $post ) : setup_postdata( $post ); ?>
+						<?php $featured_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'thumbnail' )[0]; ?>
+						<figure class="item">
+							<img src="<?php echo $featured_image; ?>" alt="">							
+						</figure>
+				<?php
+				endforeach; 
+				wp_reset_postdata(); ?>	
 
-	<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.superslides.min.js"></script>
+			</div>
+		</div>
+	</div>
+</div>
 
-	<script>
-		jQuery('#slides').superslides({
-	    	animation: 'fade',
-	    	pagination: false,
-	    	play: 7000
-	   	});
-	</script>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/superslides.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/owl-carousel/owl.carousel.css">
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/owl-carousel/owl.theme.default.css">
+
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.superslides.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/jquery.superslides.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/owl.carousel.min.js"></script>
+
+<script>
+	jQuery('#slides').superslides({
+    	animation: 'fade',
+    	pagination: false,
+    	play: 7000
+   	});
+   	jQuery(document).ready(function() {
+   		jQuery('.testimonial-slider').owlCarousel({
+   			'dots' : false,
+   			'nav' : true,
+   			'responsive' : {
+   				0 : {
+   					items: 1
+   				},
+   				720 : { 
+   					items: 2
+   				}
+   			}
+   		});
+   	});
+
+</script>
 
 <?php get_footer(); ?>

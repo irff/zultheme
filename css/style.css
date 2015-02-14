@@ -819,6 +819,20 @@ ul.dropdown li {
     margin: 0 30px;
   }
 }
+.testimonial {
+  margin: 0 0 60px;
+}
+.testimonial header {
+  text-align: center;
+  margin: 0 0 30px;
+}
+.testimonial figure {
+  margin: 0 10px;
+}
+.testimonial figure img {
+  border-radius: 0;
+}
+
 article {
   margin: 0 auto;
   max-width: 900px;
@@ -898,7 +912,7 @@ nav.berita ul li {
   color: white;
 }
 .berita.thumbs .selengkapnya {
-  padding: 50px 0 60px;
+  padding: 50px 0 0;
 }
 .berita.thumbs .selengkapnya .button {
   margin: 0;

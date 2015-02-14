@@ -23,7 +23,9 @@ Template Name: Berita
 <div class="berita thumbs">
 		<?php
 		$counter = 0;
-		$lastposts = get_posts();
+		$args = Array('category_name' => 'berita');
+
+		$lastposts = get_posts($args);
 		foreach ( $lastposts as $post ) : setup_postdata( $post ); ?>
 			
 			<?php if($counter % 3 == 0): ?>
