@@ -10,7 +10,7 @@ Template Name: Front Page
 	<div id="slides">
 		<div class="row">
 			<div class="large-6 medium-6 small-12 columns daftar-headline">
-				<h2><em>Saatnya kita mulai politik kebangsaan. <br> Lupakan perbedaan, satukan tujuan.</em></h2>
+				<h2><em>Lupakan perbedaan, satukan tujuan. <br>Saatnya kita mulai politik kebangsaan.</em></h2>
 				<h2><strong><em>Mari bergabung!</em></strong></h2>
 			</div>		
 			<div class="large-6 medium-6 small-12 columns">
