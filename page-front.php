@@ -115,7 +115,7 @@ Template Name: Front Page
 							  'category_name' => 'testimonial');
 				$lastposts = get_posts($args);
 				foreach ( $lastposts as $post ) : setup_postdata( $post ); ?>
-						<?php $featured_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'thumbnail' )[0]; ?>
+						<?php $featured_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'large' )[0]; ?>
 						<figure class="item">
 							<img src="<?php echo $featured_image; ?>" alt="">							
 						</figure>
