@@ -109,7 +109,7 @@ Template Name: Front Page
 			</header>
 			<div class="video-slider">
 				<?php
-				$args = Array('posts_per_page' => 10,
+				$args = Array('posts_per_page' => 100,
 							  'orderby' => 'post_date',
 							  'order' => 'ASC',
 							  'category_name' => 'video');
@@ -137,7 +137,7 @@ Template Name: Front Page
 			</header>
 			<div class="testimonial-slider">
 				<?php
-				$args = Array('posts_per_page' => 9,
+				$args = Array('posts_per_page' => 100,
 							  'orderby' => 'post_date',
 							  'order' => 'DESC',
 							  'category_name' => 'testimonial');
