@@ -101,6 +101,34 @@ Template Name: Front Page
 	</div>
 </div>
 
+<div class="video">
+	<div class="row">
+		<div class="large-12 columns">
+			<header>
+				<h2>Mengenal Zul</h2>
+			</header>
+			<div class="video-slider">
+				<?php
+				$args = Array('posts_per_page' => 10,
+							  'orderby' => 'post_date',
+							  'order' => 'ASC',
+							  'category_name' => 'video');
+				$lastposts = get_posts($args);
+				foreach ( $lastposts as $post ) : setup_postdata( $post ); ?>
+					<div class="item">
+						<h5 class="title"><?php the_title(); ?></h5 class="title">
+						<div class='embed-container'>
+							<?php the_content(); ?>
+						</div>
+					</div>
+				<?php
+				endforeach; 
+				wp_reset_postdata(); ?>	
+			</div>				
+		</div>
+	</div>
+</div>
+
 <div class="testimonial">
 	<div class="row">
 		<div class="large-12 columns">
@@ -143,6 +171,12 @@ Template Name: Front Page
     	play: 7000
    	});
    	jQuery(document).ready(function() {
+   		jQuery('.video-slider').owlCarousel({
+   			'dots' : false,
+   			'nav' : true,
+   			'items' : 1
+   		});
+
    		jQuery('.testimonial-slider').owlCarousel({
    			'dots' : false,
    			'nav' : true,
@@ -155,6 +189,7 @@ Template Name: Front Page
    				}
    			}
    		});
+
    	});
 
 </script>
