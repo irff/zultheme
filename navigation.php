@@ -2,8 +2,8 @@
 	<div class="large-5 medium-5 columns">
 		<ul class="left-nav">
 			<li><a href="<?php echo esc_url(home_url('/kenal-zul')); ?>">Kenal Zul</a></li>
-			<li><a href="<?php echo esc_url(home_url('/berita')); ?>">Berita</a></li>
-			<li><a href="<?php echo esc_url(home_url('/isu')); ?>">Isu</a></li>			
+			<li><a href="<?php echo esc_url(home_url('/berita')); ?>">Berita Zul</a></li>
+			<li><a href="<?php echo esc_url(home_url('/isu')); ?>">Isu Zul</a></li>			
 		</ul>
 	</div>
 	<div class="large-2 medium-2 columns">
@@ -12,7 +12,7 @@
 	<div class="large-5 medium-5 columns">
 		<ul class="right-nav">
 			<li><a href="<?php echo esc_url(home_url('/media-kit')); ?>">Media Kit</a></li>
-			<li><a href="<?php echo esc_url(home_url('/dukung')); ?>">Dukung</a></li>
+			<li><a href="<?php echo esc_url(home_url('/dukung')); ?>">Dukung Zul</a></li>
 			<li><a href="<?php echo esc_url(home_url('/sapa-zul')); ?>">Sapa Zul</a></li>
 		</ul>		
 	</div>
@@ -25,10 +25,10 @@
 		</ul>
 		<ul class="dropdown">
 			<li><a href="<?php echo esc_url(home_url('/kenal-zul')); ?>">Kenal Zul</a></li>
-			<li><a href="<?php echo esc_url(home_url('/berita')); ?>">Berita</a></li>
-			<li><a href="<?php echo esc_url(home_url('/isu')); ?>">Isu</a></li>			
+			<li><a href="<?php echo esc_url(home_url('/berita')); ?>">Berita Zul</a></li>
+			<li><a href="<?php echo esc_url(home_url('/isu')); ?>">Isu Zul</a></li>			
 			<li><a href="<?php echo esc_url(home_url('/media-kit')); ?>">Media Kit</a></li>
-			<li><a href="<?php echo esc_url(home_url('/dukung')); ?>">Dukung</a></li>
+			<li><a href="<?php echo esc_url(home_url('/dukung')); ?>">Dukung Zul</a></li>
 			<li><a href="<?php echo esc_url(home_url('/sapa-zul')); ?>">Sapa Zul</a></li>
 		</ul>
   </nav>
