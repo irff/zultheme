@@ -8,22 +8,34 @@ Template Name: Front Page
 
 <section class="daftar-relawan-full">
 	<div id="slides">
-		<div class="row">
-			<div class="large-6 medium-6 small-12 columns daftar-headline">
-				<h2><em>Lupakan perbedaan, satukan tujuan. <br>Saatnya kita mulai politik kebangsaan.</em></h2>
-				<h2><strong><em>Mari bergabung!</em></strong></h2>
-			</div>		
-			<div class="large-6 medium-6 small-12 columns">
-				&nbsp;
-			</div>
-		</div>
 		<ul class="slides-container">
 			<li>
+				<div class="row">
+					<div class="large-6 medium-6 small-12 columns daftar-headline">
+						<h2><em>&ldquo;Oleh karena itu, kebijakan pertama kami, biar ga repot-repot, tidak terjadi pertentangan, sudah, hutan yang bagus, yang masih primer, kasih moratorium, TIDAK BOLEH ADA IZIN APAPUN DI SITU. TITIK.&rdquo;</em></h2>
+					</div>		
+				</div>
 				<div style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/home_slider_1.jpg');" class="full-screen-image">
 				</div>
 			</li>
 			<li>
+				<div class="row">
+					<div class="large-6 medium-6 small-12 columns daftar-headline">
+						<h2><em>&ldquo;Saya memprotes keras kalau ada yang protes Ahok soal dia Tionghoa atau agamanya. Kalau mau kritik silakan, tapi jangan soal SARA. Kita ini kan Bhinneka Tunggal Ika.&rdquo;</em></h2>
+					</div>		
+				</div>
+
 				<div style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/home_slider_2.jpg');" class="full-screen-image">
+				</div>
+			</li>
+			<li>
+				<div class="row">
+					<div class="large-6 medium-6 small-12 columns daftar-headline">
+						<h2><em>&ldquo;Saya menyampaikan untuk membangun tradisi baru untuk partai politik di tanah air. Bahwa parpol haruslah melaksanakan politik kebangsaan. Tidak hanya politik praktis.&rdquo;</em></h2>
+					</div>		
+				</div>
+
+				<div style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/home_slider_3.jpg');" class="full-screen-image">
 				</div>
 			</li>
 		</ul>
