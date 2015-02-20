@@ -82,34 +82,37 @@ Template Name: Front Page
 </div>
 
 <div class="berita thumbs home">
-		<div class="row" data-equalizer>
-			<div class="large-12 columns">
-				<header>
-					<h2>Berita Terbaru</h2>
-				</header>
-			</div>
-			<?php
-			$args = Array('posts_per_page' => 3,
-						  'orderby' => 'post_date',
-						  'order' => 'DESC',
-						  'category_name' => 'berita');
-			$lastposts = get_posts($args);
-			foreach ( $lastposts as $post ) : setup_postdata( $post ); ?>
-				<div class="large-4 medium-4 columns">
-					<div class="entry" data-equalizer-watch>
-						<figure>
-						<?php $featured_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'thumbnail' )[0]; ?>
-							<a href="<?php the_permalink(); ?>"><img src="<?php echo $featured_image; ?>" alt=""></a>
-							<figcaption>
-								<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
-							</figcaption>
-						</figure>				
-					</div>
+			<div class="row">
+				<div class="large-12 column">
+					<header>
+						<h2>Berita Terbaru</h2>
+					</header>					
 				</div>
-			<?php
-			endforeach; 
-			wp_reset_postdata(); ?>	
-		</div>
+			</div>
+			<div class="berita-slider row" data-equalizer>
+
+				<?php
+				$args = Array('posts_per_page' => 9,
+							  'orderby' => 'post_date',
+							  'order' => 'DESC',
+							  'category_name' => 'berita');
+				$lastposts = get_posts($args);
+				foreach ( $lastposts as $post ) : setup_postdata( $post ); ?>
+					<div class="">
+						<div class="entry" data-equalizer-watch>
+							<figure>
+							<?php $featured_image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'thumbnail' )[0]; ?>
+								<a href="<?php the_permalink(); ?>"><img src="<?php echo $featured_image; ?>" alt=""></a>
+								<figcaption>
+									<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+								</figcaption>
+							</figure>				
+						</div>
+					</div>
+				<?php
+				endforeach; 
+				wp_reset_postdata(); ?>					
+			</div>
 	<div class="selengkapnya">
 		<a href="<?php echo esc_url(home_url('/berita')); ?>" class="button zul-branding">Selengkapnya</a>	
 	</div>
@@ -200,6 +203,25 @@ Template Name: Front Page
    				},
    				720 : { 
    					items: 2
+   				}
+   			}
+   		});
+
+   		jQuery('.berita-slider').owlCarousel({
+   			'loop' : true,
+   			'dots' : false,
+   			'nav' : true,
+   			'autoplay' : true,
+   			'autoplayTimeout' : 3000,
+   			'responsive' : {
+   				0 : {
+   					items: 1
+   				},
+   				720 : { 
+   					items: 2
+   				},
+   				1024 : {
+   					items: 3
    				}
    			}
    		});

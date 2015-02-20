@@ -883,7 +883,7 @@ nav.berita ul li {
   padding: 60px 0;
 }
 .berita.thumbs.home header {
-  margin-bottom: 15px;
+  margin-bottom: 30px;
 }
 .berita.thumbs .columns {
   padding: 10px;
@@ -891,6 +891,9 @@ nav.berita ul li {
 .berita.thumbs .entry {
   background: #0f2d53;
   margin: 0 0 0;
+}
+.berita.thumbs .berita-slider .entry {
+  margin: 0 10px;
 }
 .berita.thumbs figcaption {
   padding: 15px 10px;

@@ -21,7 +21,7 @@ nav.berita {
 	&.home {
 		padding: 60px 0;
 		header {
-			margin-bottom: 15px;
+			margin-bottom: 30px;
 		}
 	}
 
@@ -32,6 +32,12 @@ nav.berita {
 	.entry {
 		background: $darkblue;
 		margin: 0 0 0;
+	}
+
+	.berita-slider {
+		.entry {
+			margin: 0 10px;
+		}
 	}
 
 	figcaption {
@@ -53,5 +59,4 @@ nav.berita {
 			margin: 0;
 		}
 	}
-
 }
