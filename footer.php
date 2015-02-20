@@ -19,9 +19,11 @@
 	<div class="footer">
 		<div class="row">
 			<div class="large-4 medium-4 columns issues">
-				<h4>Isu Kita</h4>
+				<h4>Perjuangan Zul</h4>
 				<ul>
-					<li><a href="<?php echo esc_url(home_url('/isu')); ?>">Pluralitas</a></li>
+					<li><a href="<?php echo esc_url(home_url('/persatuan')); ?>">Persatuan</a></li>
+					<li><a href="<?php echo esc_url(home_url('/reformasi')); ?>">Reformasi</a></li>
+					<li><a href="<?php echo esc_url(home_url('/pluralitas')); ?>">Pluralitas</a></li>
 				</ul>
 			</div>
 			<div class="large-4 medium-4 columns">
