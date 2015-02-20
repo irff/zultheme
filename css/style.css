@@ -1044,6 +1044,7 @@ nav.galeri ul li {
 }
 .footer .logo img {
   margin-top: 10px;
+  max-width: 80%;
 }
 .footer .columns {
   padding-top: 15px;
@@ -1057,9 +1058,6 @@ nav.galeri ul li {
   color: white;
 }
 .footer ul li a:hover {
-  border: none;
-}
-.footer .issues a {
   border-bottom: 1px solid white;
 }
 .footer h4, .footer h2, .footer h6 {
@@ -1073,10 +1071,21 @@ nav.galeri ul li {
   list-style-type: none;
 }
 .footer .social ul li {
-  margin: 20px 20px 0 0;
+  margin: 10px 10px 0 0;
   float: left;
 }
 .footer .social img {
   width: 40px;
   height: 40px;
+}
+
+.bottom-footer {
+  padding: 15px 0;
+  text-align: center;
+  background-color: #0a1d33;
+}
+.bottom-footer p {
+  font-size: 90%;
+  color: white;
+  margin: 0;
 }

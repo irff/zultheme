@@ -11,7 +11,7 @@
 	</div>
 	<div class="large-5 medium-5 columns">
 		<ul class="right-nav">
-			<li><a href="<?php echo esc_url(home_url('/media-kit')); ?>">Media Kit</a></li>
+			<li><a href="<?php echo esc_url(home_url('/media-zul')); ?>">Media Zul</a></li>
 			<li><a href="<?php echo esc_url(home_url('/dukung')); ?>">Dukung Zul</a></li>
 			<li><a href="<?php echo esc_url(home_url('/sapa-zul')); ?>">Sapa Zul</a></li>
 		</ul>		
@@ -27,7 +27,7 @@
 			<li><a href="<?php echo esc_url(home_url('/kenal-zul')); ?>">Kenal Zul</a></li>
 			<li><a href="<?php echo esc_url(home_url('/berita')); ?>">Berita Zul</a></li>
 			<li><a href="<?php echo esc_url(home_url('/persatuan')); ?>">Perjuangan Zul</a></li>			
-			<li><a href="<?php echo esc_url(home_url('/media-kit')); ?>">Media Kit</a></li>
+			<li><a href="<?php echo esc_url(home_url('/media-zul')); ?>">Media Zul</a></li>
 			<li><a href="<?php echo esc_url(home_url('/dukung')); ?>">Dukung Zul</a></li>
 			<li><a href="<?php echo esc_url(home_url('/sapa-zul')); ?>">Sapa Zul</a></li>
 		</ul>
