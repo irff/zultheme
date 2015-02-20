@@ -992,22 +992,47 @@ nav.galeri ul li {
 
 .twitter {
   text-align: center;
-  padding: 60px 0;
+  padding: 60px 0 45px;
+  margin: 0 0 45px;
+  background-color: #0f2d53;
+}
+.twitter h2 {
+  margin-bottom: 30px;
+  color: white;
+}
+.twitter h2 a {
+  color: white;
 }
 .twitter h3 {
-  color: #0f2d53;
+  margin: 0 30px;
+  font-size: 42px;
+  line-height: 1.4;
+  color: white;
+}
+.twitter h3 a {
+  color: white;
 }
 .twitter .meta {
   display: block;
-  font-size: 24px;
-  font-weight: bold;
-  color: #0f2d53;
+  font-size: 20px;
+  color: #aaaaaa;
+}
+.twitter .tweet-author {
+  text-align: right;
+  margin-top: 30px;
+  color: white;
+}
+.twitter .tweet-author a {
+  color: white;
 }
 
 .footer {
   padding: 45px 0 30px;
   background: #0f2d53;
   color: white;
+}
+.footer .logo img {
+  margin-top: 10px;
 }
 .footer .columns {
   padding-top: 15px;

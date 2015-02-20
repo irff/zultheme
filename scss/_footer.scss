@@ -2,9 +2,17 @@
 	padding: 45px 0 30px;
 	background: $darkblue;
 	color: $white;
+	
+	.logo {
+		img {
+			margin-top: 10px;
+		}
+	}
+
 	.columns {
 		padding-top: 15px;
 	}
+
 	ul {
 		margin: 0;
 		list-style-position: outside;
