@@ -111,7 +111,7 @@ Template Name: Front Page
 			wp_reset_postdata(); ?>	
 		</div>
 	<div class="selengkapnya">
-		<a href="<?php echo esc_url(home_url('/berita')); ?>" class="button">Selengkapnya</a>	
+		<a href="<?php echo esc_url(home_url('/berita')); ?>" class="button zul-branding">Selengkapnya</a>	
 	</div>
 </div>
 
