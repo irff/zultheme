@@ -3,7 +3,7 @@
 		<ul class="left-nav">
 			<li><a href="<?php echo esc_url(home_url('/kenal-zul')); ?>">Kenal Zul</a></li>
 			<li><a href="<?php echo esc_url(home_url('/berita')); ?>">Berita Zul</a></li>
-			<li><a href="<?php echo esc_url(home_url('/isu')); ?>">Isu Zul</a></li>			
+			<li><a href="<?php echo esc_url(home_url('/persatuan')); ?>">Perjuangan Zul</a></li>			
 		</ul>
 	</div>
 	<div class="large-2 medium-2 columns">
@@ -26,7 +26,7 @@
 		<ul class="dropdown">
 			<li><a href="<?php echo esc_url(home_url('/kenal-zul')); ?>">Kenal Zul</a></li>
 			<li><a href="<?php echo esc_url(home_url('/berita')); ?>">Berita Zul</a></li>
-			<li><a href="<?php echo esc_url(home_url('/isu')); ?>">Isu Zul</a></li>			
+			<li><a href="<?php echo esc_url(home_url('/persatuan')); ?>">Perjuangan Zul</a></li>			
 			<li><a href="<?php echo esc_url(home_url('/media-kit')); ?>">Media Kit</a></li>
 			<li><a href="<?php echo esc_url(home_url('/dukung')); ?>">Dukung Zul</a></li>
 			<li><a href="<?php echo esc_url(home_url('/sapa-zul')); ?>">Sapa Zul</a></li>

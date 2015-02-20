@@ -630,6 +630,13 @@ body {
   color: #fff;
 }
 
+.zul-branding {
+  background-color: #0f2d53;
+}
+.zul-branding:hover {
+  background-color: #355ea0;
+}
+
 .daftar-headline {
   position: absolute;
   top: 30%;
@@ -768,6 +775,10 @@ ul.dropdown li {
   width: 100%;
 }
 
+.button.isu {
+  width: 100%;
+}
+
 .header {
   height: 400px;
 }
@@ -817,11 +828,11 @@ ul.dropdown li {
 article {
   margin: 0 auto;
   max-width: 900px;
-  padding: 75px 15px 60px;
+  padding: 60px 15px 60px;
 }
 article h2 {
   text-align: center;
-  margin: 0 0 60px;
+  margin: 30px 0 45px;
 }
 article img.featured {
   width: 100%;

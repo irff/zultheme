@@ -98,6 +98,15 @@ body {
 	}
 }
 
+.zul-branding {
+	background-color: $darkblue;
+
+	&:hover {
+		background-color: $lightblue;
+	}
+}
+
+
 .daftar-headline {
 	position: absolute;
 	top: 30%;
