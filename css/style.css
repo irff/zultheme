@@ -1004,13 +1004,24 @@ nav.galeri ul li {
   color: white;
 }
 .twitter h3 {
-  margin: 0 30px;
+  margin: 10px 30px;
   font-size: 42px;
   line-height: 1.4;
   color: white;
 }
 .twitter h3 a {
   color: white;
+}
+@media screen and (max-width: 64em) and (min-width: 43em) {
+  .twitter h3 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 43em) {
+  .twitter h3 {
+    font-size: 20px;
+    line-height: 1.3;
+  }
 }
 .twitter .meta {
   display: block;
