@@ -23,7 +23,8 @@ Template Name: Berita
 <div class="berita thumbs">
 		<?php
 		$counter = 0;
-		$args = Array('category_name' => 'berita');
+		$args = Array('category_name' => 'berita',
+					  'posts_per_page' => 999);
 
 		$lastposts = get_posts($args);
 		foreach ( $lastposts as $post ) : setup_postdata( $post ); ?>
