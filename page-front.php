@@ -13,7 +13,7 @@ Template Name: Front Page
 				<div class="row">
 					<div class="large-6 medium-6 small-12 columns daftar-headline">
 						<h2><em>&ldquo;Oleh karena itu, kebijakan pertama kami, biar ga repot-repot, tidak terjadi pertentangan, sudah, hutan yang bagus, yang masih primer, kasih moratorium, TIDAK BOLEH ADA IZIN APAPUN DI SITU. TITIK.&rdquo;</em></h2>
-						<a href="<?php echo esc_url(home_url('/persatuan')); ?>" class="button medium zul-branding">Pelajari Lebih Jauh</a>
+						<a href="<?php echo esc_url(home_url('/persatuan')); ?>" class="button medium zul-branding">Saya setuju!</a>
 					</div>
 				</div>
 				<div style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/home_slider_1.jpg');" class="full-screen-image">
@@ -23,7 +23,7 @@ Template Name: Front Page
 				<div class="row">
 					<div class="large-6 medium-6 small-12 columns daftar-headline">
 						<h2><em>&ldquo;Saya menyampaikan untuk membangun tradisi baru untuk partai politik di tanah air. Bahwa parpol haruslah melaksanakan politik kebangsaan. Tidak hanya politik praktis.&rdquo;</em></h2>
-						<a href="<?php echo esc_url(home_url('/reformasi')); ?>" class="button medium zul-branding">Pelajari Lebih Jauh</a>
+						<a href="<?php echo esc_url(home_url('/reformasi')); ?>" class="button medium zul-branding">Saya setuju!</a>
 					</div>		
 				</div>
 
@@ -34,7 +34,7 @@ Template Name: Front Page
 				<div class="row">
 					<div class="large-6 medium-6 small-12 columns daftar-headline">
 						<h2><em>&ldquo;Saya memprotes keras kalau ada yang protes Ahok soal dia Tionghoa atau agamanya. Kalau mau kritik silakan, tapi jangan soal SARA. Kita ini kan Bhinneka Tunggal Ika.&rdquo;</em></h2>
-						<a href="<?php echo esc_url(home_url('/pluralitas')); ?>" class="button medium zul-branding">Pelajari Lebih Jauh</a>
+						<a href="<?php echo esc_url(home_url('/pluralitas')); ?>" class="button medium zul-branding">Saya setuju!</a>
 					</div>		
 				</div>
 
